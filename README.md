@@ -22,7 +22,7 @@
 > The purpose is to learn and understand:
 > - Browser automation using Selenium
 > - GUI development with Tkinter
-> - Web scraping and automation techniques
+> - Web dom manupulation and automation techniques
 > - Ethical automation practices
 >
 > **NOT intended for:**
@@ -30,7 +30,7 @@
 > - Commercial bulk messaging
 > - Violating WhatsApp Terms of Service
 > - Any illegal activities
-
+> - I dont hold any responsiblity for any use one does.
 **Please use responsibly and ethically!**
 
 ---
@@ -1023,4 +1023,5 @@ Made with ❤️ for education by [Chirag Jha](http://github.com/chirag-Jha/)
 **Status:** Active Development  
 **Python:** 3.8+  
 **Platform:** Windows, macOS, Linux
+
 
