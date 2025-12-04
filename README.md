@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Version](https://img.shields.io/badge/version-2.1-blue.svg)
+![Version](https://img.shields.io/badge/version-1.0-blue.svg)
 ![Python](https://img.shields.io/badge/python-3.8+-green.svg)
 ![License](https://img.shields.io/badge/license-Educational-orange.svg)
 ![Status](https://img.shields.io/badge/status-Active-success.svg)
@@ -1023,3 +1023,4 @@ Made with ❤️ for education by [Chirag Jha](http://github.com/chirag-Jha/)
 **Status:** Active Development  
 **Python:** 3.8+  
 **Platform:** Windows, macOS, Linux
+
