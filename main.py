@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-WhatsApp Bulk Sender GUI - Modern Sleek Interface
+WhatsApp Web Sender GUI - Modern Sleek Interface
 Features: Smart validation, JSON/CSV import, Auto profile creation, Error handling
 """
 
@@ -168,7 +168,7 @@ class ModernButton(tk.Canvas):
 class WhatsAppBulkSenderGUI:
     def __init__(self, root):
         self.root = root
-        self.root.title("WhatsApp Bulk Sender Pro")
+        self.root.title("WhatsApp Web Sender")
         self.root.geometry("1100x800")
         self.root.configure(bg=COLORS["bg_dark"])
         
@@ -246,7 +246,7 @@ class WhatsAppBulkSenderGUI:
         title_frame = tk.Frame(header_frame, bg=COLORS["bg_dark"])
         title_frame.pack(fill="x")
         
-        tk.Label(title_frame, text="📱 WhatsApp Bulk Sender", 
+        tk.Label(title_frame, text="📱 WhatsApp Web Sender", 
                 font=self.title_font,
                 bg=COLORS["bg_dark"],
                 fg=COLORS["text_primary"]).pack(side="left")
@@ -263,7 +263,7 @@ class WhatsAppBulkSenderGUI:
                 fg=COLORS["text_muted"]).pack(side="right")
         
         # Subtitle
-        tk.Label(header_frame, text="Send WhatsApp messages in bulk with ease", 
+        tk.Label(header_frame, text="Send WhatsApp messages in Web with ease", 
                 font=self.small_font,
                 bg=COLORS["bg_dark"],
                 fg=COLORS["text_secondary"]).pack(anchor="w")
@@ -1068,7 +1068,7 @@ Only 10-digit numbers or 12-digit numbers with '91' prefix."""
         
     def load_example(self):
         """Load example message and numbers for demonstration"""
-        example_message = """Hello! This is a test message from WhatsApp Bulk Sender.
+        example_message = """Hello! This is a test message from WhatsApp Web Sender.
 
 You can customize this message with your own content.
 
@@ -1222,7 +1222,7 @@ Your Name"""
     def show_welcome_guide(self):
         """Show welcome guide for first-time users"""
         guide_window = tk.Toplevel(self.root)
-        guide_window.title("Welcome to WhatsApp Bulk Sender Pro")
+        guide_window.title("Welcome to WhatsApp Web Sender Pro")
         guide_window.geometry("700x600")
         guide_window.configure(bg=COLORS["bg_dark"])
         guide_window.transient(self.root)
@@ -1255,7 +1255,7 @@ Your Name"""
         scrollbar.pack(side="right", fill="y")
         
         # Guide content
-        guide_text = """How to Use WhatsApp Bulk Sender:
+        guide_text = """How to Use WhatsApp Web Sender:
 
 📝 STEP 1: Compose Your Message
 • Go to the "Compose" tab
@@ -1628,7 +1628,7 @@ Your Name"""
         
     def send_messages_thread(self, numbers, message, max_tries):
         try:
-            self.log_to_gui("Starting WhatsApp bulk sender...", "info")
+            self.log_to_gui("Starting WhatsApp Web sender...", "info")
             self.update_status("Initializing...")
             
             # Optionally kill edge processes
